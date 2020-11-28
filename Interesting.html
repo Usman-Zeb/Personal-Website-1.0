@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<html>
+
+<head>
+  <title> CS121 Project </title>
+  <link rel = "stylesheet" href = "css\interesting.css">
+ <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+  <div class="overlay">
+  <nav>
+   <ul>
+       <li><a href="index.html" class="active"><img src="images/home_button.png"></a></li>
+       <li><a href="guidlines.html">Guidelines</a></li>
+       <li><a href="interesting.html">Something Interesting</a></li>
+       <li><a href="AboutMe.html">About Me</a></li>
+   </ul>
+  </nav>
+  <div class="container">
+    <marquee direction="right">*wooow*  <img src="images\nyan.gif"></marquee>
+
+<ul>
+<li><button id="YTBtn">YOUTUBE</button> ☽ Channels I typically watch ☽</li>
+
+<div id="Youtube" class="Youtube1">
+  <div class="Youtube-content">
+    <span class="YTclose">&times;</span>
+    <h3><a href="https://www.youtube.com/channel/UCoxcjq-8xIDTYp3uz647V5A">Numberphile</a></h3>
+    <p>Your daily dose of Math</p>
+    <h3><a href="https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q">Kurzgesagt - In a Nutshell</a></h3>
+    <p>Gives you existential crisis tho</p>
+    <h3><a href="https://www.youtube.com/channel/UC7aE5B-ZFEAoumyj6FaJ7l">Bradly Martyn</a></h3>
+    <p>Fitness motivation 24/7</p>
+    <h3><a href="https://www.youtube.com/user/unboxtherapy">Unbox Therapy</a></h3>
+    <p>Great guy I guess</p>
+  </div>
+</div>
+
+<script>
+var modal = document.getElementById('Youtube');
+var button = document.getElementById("YTBtn");
+var span = document.getElementsByClassName("YTclose")[0];
+button.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<li><a href="https://usmanzeb.carbonmade.com" target="_blank">GFX ARTS</a> ☽ a e s t h e t i c s ☽</li>
+<li><a href="minecraft.html">MINECRAFT</a> ☽ Takes you to a different world ☽</li>
+</div>
+
+
+</ul>
+
+</div>
+<div class="footer">
+  <div class="footer_overlay">
+    <br>
+    <div class="socials">
+      <h3>Follow me up!</h3>
+      <a href="https://www.facebook.com/muhammad.u.zeb" target="_blank"><img src="images\facebook.png"></a>
+      <a href="http://www.instagram.com/usman_zeb1" target="_blank"><img src="images\insta.png"></a>
+      <a href="https://www.twitter.com/LethalCode101" target="_blank"><img src="images\twitter.png"></a>
+    </div>
+    <br>
+    <br>
+    <h2><strong>Powered By: MUZ Studios © 2018</strong></h2>
+  </div>
+</div>
+</div>
+</body>
+
+</html>

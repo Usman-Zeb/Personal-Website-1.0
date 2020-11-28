@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family: "Minecraftia";
+src: url("../css/fonts/Minecraftia.ttf");
+}
+
+@font-face{
+  font-family: "Minecrafter";
+  src: url("../css/fonts/Minecrafter_3.ttf");
+}
+
+body{
+  width:100%;
+  background: url(../images/minecraft_bg.jpg) no-repeat;
+	background-size: cover;
+  margin: auto;
+  width: 100%;
+  cursor:url(../images/pick_up.png), default;
+  margin-top:30px;
+}
+
+body:active
+{
+ cursor:url(../images/pick_down.png), default;
+}
+
+a
+{
+  cursor:url(../images/pick_up.png), default;
+}
+
+.container a:active
+{
+  cursor:url(../images/pick_down.png), default;
+}
+.container{
+  margin:0 auto;
+  width: 850px;
+  height: 1100px;
+  float:center;
+  overflow:hidden;
+  background-image:url("../images/page.png");
+  background-repeat: none;
+  background-size: cover;
+
+}
+
+.contain_writing{
+
+  margin-left:110px;
+  width: 700px;
+  height: 1100px;
+  float:center;
+  overflow:hidden;
+}
+.container p{
+  font-family: minecraftia;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav
+{
+  top:0;
+  position:fixed;
+  width:100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin:auto;
+  font-family: sans-serif;
+  padding:0px;
+  overflow: hidden;
+  background-image: url("../images/mc_footer.jpg");
+  background-size: 80px 60px;
+
+}
+
+nav li {
+  float: left;
+  margin-left:26px;
+
+}
+
+nav li a {
+  display:block;
+  text-align: center;
+  font-family: Minecraftia;
+  color: white;
+  height:20px;
+  width:90%;
+  padding: 16px 16px;
+  text-decoration: none;
+  cursor:url(../images/sword.png), default;
+}
+li a:hover:not(.active) {
+  background-image:url("../images/wood_mc.png");
+  background-size:60px 60px;
+
+}
+
+li a:hover
+{
+  background-image:url("../images/stone_mc.jpg");
+  background-size:60px 60px;
+}
+
+
+.active img{
+  width:30px;
+  height:30px;
+  border:1px solid white;
+}
+
+.overlay {
+  margin-top:30px;
+  float:right;
+  width: 100%;
+  height: 100%;
+
+  background-position: top right;
+
+}
+
+#mc_welcome
+{
+  font-family:Minecraftia;
+  text-align:center;
+  margin-left: 100px;
+  margin-right:-10px;
+  color:brown;
+}
+
+#survivalgrounds
+{
+ width:350px;
+ height:210px;
+ padding-left:25%;
+}
+
+#character
+{
+  width:135px;
+  height:180px;
+  padding-left:40%;
+}
+
+#sign
+{
+  padding-left:30px;
+}
+
+.footer
+{
+  float:left;
+  width:100%;
+  height:80px;
+}
+
+.footer_overlay {
+  width: 100%;
+  height: 150px;
+  background: url("../images/dirt_mc.png") repeat-x;
+background-size: 200px 150px;
+  background-position: top right;
+  float:left;
+
+}
+
+.footer h2
+{
+  font-family:Minecraftia;
+  font-size:20px;
+  text-align:center;
+  color:white;
+  margin-left:50px;
+}
+
+.footer h3
+{
+  padding-left:20px;
+}
+
+.socials
+{
+  width:100%;
+  height:20px;
+  float:left;
+}
+
+.socials a
+{
+  margin-left:20px;
+  float:left;
+}
+
+.socials h3
+{
+  font-family: Minecraftia;
+  font-size:20px;
+  color:white;
+  margin-left:20px;
+}
+
+.socials img
+{
+  width:40px;
+  height:40px;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.creeper
+{
+  width:125px;
+  height:125px;
+  float:left;
+  background-image: url("../images/creeper.png");
+  background-size:cover;
+}
+
+.creeper p
+{
+  font-family:Minecraftia;
+  margin-top:100px;
+  text-align:center;
+}
+
+.emerald2
+{
+  background-image: url("../images/emerald.gif");
+  background-size: cover;
+  width:50px;
+  height:50px;
+}
+
+.creeper:hover
+{
+ background:url("../images/boom.png") no-repeat;
+ background-size: cover;
+ float:left;
+
+ width:80px;
+ height:80px;
+}
+
+.dims
+{
+  width:100px;
+  height:100px;
+  float:left;
+}
